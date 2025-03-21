@@ -31,8 +31,7 @@ llm = ChatOpenAI(temperature=0.0, model=llm_model)
 import pinecone      
 
 pinecone.init(      
-	api_key='7c7e9b39-0da2-4307-99b6-29d5ac12170a',      
-	environment='gcp-starter'      
+	api_key='pcsk_yC4nR_7XukhbNt2a84C5rD3wLrY5XbdsJhkPpzsFL7zeZ2B5LWgQ9iGrwT68cLVbFpwN2',            
 )      
 index = pinecone.Index('pdf562')
 
